@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+
+/* Reseting browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main stying of the entire body*/
+html,
+body {
+  line-height: 1.7em;
+}
+
+header {
+  font-family: "Chela One", cursive;
+}
+
+/* stying the "a" ref*/
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* syting all the paragraph */
+p {
+  margin: 10px 0;
+}
+
+/* utility class */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-Primary {
+  color: rgb(255, 136, 92);
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #001853;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #001853;
+}
+
+.btn:hover {
+  background-color: rgb(255, 136, 92);
+  color: #333;
+}
+
+.bg-dark {
+  background-color: #001853;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #001853;
+}
+
+.bg-primary {
+  background-color: #001853;
+  color: #f4f4f4;
+}
+
+.clr {
+  clear: both;
+}
+/* navbar */
+#navbar {
+  background-color: #001853;
+  color: #fff;
+  float: auto;
+  overflow: hidden;
+}
+
+.logo a {
+  color: rgb(255, 136, 92);
+}
+
+#navbar ul a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  color: rgb(255, 136, 92);
+  transition: 0.3s;
+}
+
+/* Styling the showcase section */
+#showcase {
+  background-image: url(../CSS/image/showcase\ -\ Copy.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* styling the home-info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-image {
+  float: left;
+  width: 50%;
+  background-image: url(../CSS/image/outside\ view.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 70px 40px;
+}
+
+.info-content h2 {
+  font-family: "Chela One", cursive;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/* Features */
+#features h1 {
+  font-family: "Chela One", cursive;
+  text-align: center;
+  padding: 20px;
+  color: #001853;
+  margin-top: 50px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  color: #001853;
+}
+
+.box i {
+  color: rgb(255, 136, 92);
+}
+
+.unique {
+  background-color: #001853;
+  color: #fff;
+  box-shadow: 10px 10px rgb(255, 136, 92);
+  border-radius: 10px;
+}
+
+.unique h3 {
+  color: rgb(255, 136, 92);
+}
+
+.main-footer {
+  background-color: #001853;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* ABOUT STYLING */
+.about h1 {
+  font-family: "Chela One", cursive;
+}
+
+.about-container {
+  margin: auto;
+  max-width: 1100px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.about-container img {
+  width: 100rem;
+  height: 30rem;
+}
+
+/*CONTACT & GUESTS TESTIMONIES */
+.contact-container h1 {
+  font-family: "Chela One", cursive;
+}
+
+.testimony {
+  margin: auto;
+  max-width: 1100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimony h1 {
+  font-family: "Chela One", cursive;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.test-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.guest {
+  background-color: #001853;
+  padding: 15px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.guest img {
+  border-radius: 100%;
+  width: 100px;
+  height: 80px;
+}
+
+.contact {
+  margin: auto;
+  width: 40%;
+  padding: 20px;
+}
+
+.contact-container {
+  margin-top: 40px;
+}
+
+.form-detail {
+  margin-bottom: 20px;
+}
+
+.form-detail label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact textarea {
+  height: 200px;
+}
+
+.contact input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid rgb(255, 136, 92);
+  /* border-color: coral; */
+}
+
+.contact-info .container {
+  background-color: #001853;
+}
+
+.contact-info .container .box {
+  color: #f4f4f4;
+}
+
+.contact-details i,
+h4 {
+  color: rgb(255, 136, 92);
+}
+
+@media (max-width: 768px) {
+  .logo a {
+    /* color: rgb(255, 136, 92); */
+    display: none;
+  }
+
+  #home-info {
+    height: 600px;
+    margin-top: 20px;
+  }
+
+  #home-info .info-image {
+    width: 0%;
+  }
+
+  #home-info .info-content {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 70px 40px;
+  }
+
+  #home-info .info-content p {
+    text-align: justify;
+  }
+
+  #features {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    /* padding: 50px; */
+    text-align: center;
+  }
+
+  /* About */
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .about-container img {
+    display: none;
+  }
+
+  .contact-info .container .box {
+    padding: 10px;
+  }
+
+  .contact {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contact input,
+  textarea {
+    width: 100%;
+  }
+}
