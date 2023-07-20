@@ -126,7 +126,7 @@ p {
 
 /* Styling the showcase section */
 #showcase {
-  background-image: url(../CSS/image/theshow.jpeg);
+  background-image: url(../CSS/image/showcase.jpeg);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
@@ -157,7 +157,7 @@ p {
 #home-info .info-image {
   float: left;
   width: 50%;
-  background-image: url(../CSS/image/outside\ view.jpg);
+  background-image: url(../CSS/image/outside.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
