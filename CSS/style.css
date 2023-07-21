@@ -8,7 +8,7 @@
 /* Main stying of the entire body*/
 html,
 body {
-  font-family: "Chela One", cursive;
+  font-family: "Chela One";
   line-height: 1.7em;
 }
 
@@ -334,7 +334,7 @@ h4 {
 @media (max-width: 768px) {
   html,
   body {
-    font-family: "Chela One", cursive;
+    font-family: "Chela One";
   }
 
   .lead {
