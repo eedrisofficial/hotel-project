@@ -173,6 +173,10 @@ p {
 }
 
 /* Features */
+#features {
+  margin-bottom: 20rem;
+}
+
 #features h1 {
   text-align: center;
   padding: 20px;
@@ -369,6 +373,7 @@ h4 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 0rem;
   }
 
   .box {
