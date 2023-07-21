@@ -328,6 +328,11 @@ h4 {
 
 /* FOR MOBILE AND TABLET */
 @media (max-width: 768px) {
+  html,
+  body {
+    font-family: "Chela One", cursive;
+  }
+
   .lead {
     font-size: 20px;
   }
