@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Chela+One&family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Serif&display=swap");
 
 /* Reseting browser */
 * {
@@ -10,8 +10,8 @@
 /* Main stying of the entire body*/
 html,
 body {
-  font-family: "Gloria Hallelujah", cursive;
   line-height: 1.7em;
+  font-family: "Noto Serif", serif;
 }
 
 header,
@@ -19,7 +19,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Chela One", cursive;
+  font-family: "Kalam", cursive;
 }
 
 /* stying the "a" ref*/
