@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Chela+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chela+One&family=Gloria+Hallelujah&display=swap");
 
 /* Reseting browser */
 * {
@@ -10,8 +10,16 @@
 /* Main stying of the entire body*/
 html,
 body {
-  font-family: "Chela One", cursive;
+  font-family: "Gloria Hallelujah", cursive;
   line-height: 1.7em;
+}
+
+header,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Chela One", cursive;
 }
 
 /* stying the "a" ref*/
@@ -177,6 +185,7 @@ p {
 /* Features */
 #features {
   margin-bottom: 20rem;
+  font-weight: 100;
 }
 
 #features h1 {
@@ -334,11 +343,6 @@ h4 {
 
 /* FOR MOBILE AND TABLET */
 @media (max-width: 768px) {
-  html,
-  body {
-    font-family: "Chela One", cursive;
-  }
-
   .lead {
     font-size: 20px;
   }
