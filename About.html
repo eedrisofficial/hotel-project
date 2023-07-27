@@ -14,18 +14,24 @@
     />
     <title>HAI HOTEL | About</title>
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/mobile.css" />
   </head>
   <body>
     <!--NAVIGATION BAR-->
     <header>
-      <nav id="navbar">
+      <nav class="navbar" id="navbar">
         <div class="container">
-          <h1 class="logo"><a href="index.html">HAI</a></h1>
-          <ul>
+          <h1 class="logo"><a href="index.html">HIA</a></h1>
+          <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a class="current" href="About.html">About</a></li>
-            <li><a href="contact.html">contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
+          <div class="burger" onclick="toggleNav()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
         </div>
       </nav>
     </header>
@@ -86,5 +92,6 @@
     <footer class="main-footer">
       HIA hotel &copy; 2023 All Right Reserved
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
